@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="LGPL-3.0"
+issueTrackerURL="https://github.com/Coda1552/Breezy/issues"
+
+[[mods]]
+modId="breezy"
+version = "${file.jarVersion}"
+displayName = "Breezy"
+displayURL="https://modrinth.com/mod/breezy"
+logoFile="logo.png"
+credits="Mr. Esuoh, VakyPanda, Mango, Ezae10, DavigJ"
+authors="codyhuh, Probleyes"
+itemIcon = "breezy:hot_air_balloon"
+configBackground = "minecraft:textures/block/orange_wool.png"
+
+description='''A unique approach to hot air balloons!'''
+
+[[dependencies.breezy]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.breezy]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.breezy]]
+modId = "geckolib"
+mandatory = true
+versionRange = "[4.4.4,)"
+ordering = "NONE"
+side = "BOTH"
